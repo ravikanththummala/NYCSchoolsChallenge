@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D47C1A62A929FA6008522F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47C1A52A929FA6008522F8 /* AppDelegate.swift */; };
+		3D47C1A82A929FA6008522F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47C1A72A929FA6008522F8 /* SceneDelegate.swift */; };
+		3D47C1AA2A929FA6008522F8 /* SchoolListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47C1A92A929FA6008522F8 /* SchoolListViewController.swift */; };
+		3D47C1AD2A929FA6008522F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D47C1AB2A929FA6008522F8 /* Main.storyboard */; };
+		3D47C1AF2A929FA6008522F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D47C1AE2A929FA6008522F8 /* Assets.xcassets */; };
+		3D47C1B22A929FA6008522F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D47C1B02A929FA6008522F8 /* LaunchScreen.storyboard */; };
+		3D47C1BC2A92B57D008522F8 /* SchoolDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47C1BB2A92B57D008522F8 /* SchoolDetailViewController.swift */; };
+		3D47C1BE2A92B58F008522F8 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47C1BD2A92B58F008522F8 /* School.swift */; };
+		3D47C1C12A92B5A1008522F8 /* SchoolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47C1C02A92B5A1008522F8 /* SchoolViewModel.swift */; };
+		3D47C1C52A92B611008522F8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47C1C42A92B611008522F8 /* NetworkManager.swift */; };
+		3D47C1C72A92C157008522F8 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47C1C62A92C157008522F8 /* AlertController.swift */; };
+		3D47C1CA2A92CEA4008522F8 /* LoadingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47C1C92A92CEA4008522F8 /* LoadingIndicatorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D47C1A22A929FA6008522F8 /* 08201990-Ravikanth-Thummala-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "08201990-Ravikanth-Thummala-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D47C1A52A929FA6008522F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D47C1A72A929FA6008522F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D47C1A92A929FA6008522F8 /* SchoolListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListViewController.swift; sourceTree = "<group>"; };
+		3D47C1AC2A929FA6008522F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D47C1AE2A929FA6008522F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D47C1B12A929FA6008522F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D47C1B32A929FA6008522F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D47C1BB2A92B57D008522F8 /* SchoolDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailViewController.swift; sourceTree = "<group>"; };
+		3D47C1BD2A92B58F008522F8 /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		3D47C1C02A92B5A1008522F8 /* SchoolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewModel.swift; sourceTree = "<group>"; };
+		3D47C1C42A92B611008522F8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3D47C1C62A92C157008522F8 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		3D47C1C92A92CEA4008522F8 /* LoadingIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D47C19F2A929FA5008522F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D47C1992A929FA5008522F8 = {
+			isa = PBXGroup;
+			children = (
+				3D47C1A42A929FA6008522F8 /* 08201990-Ravikanth-Thummala-NYCSchools */,
+				3D47C1A32A929FA6008522F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D47C1A32A929FA6008522F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D47C1A22A929FA6008522F8 /* 08201990-Ravikanth-Thummala-NYCSchools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D47C1A42A929FA6008522F8 /* 08201990-Ravikanth-Thummala-NYCSchools */ = {
+			isa = PBXGroup;
+			children = (
+				3D47C1C82A92CE95008522F8 /* Others */,
+				3D47C1C32A92B600008522F8 /* Network */,
+				3D47C1C22A92B5F6008522F8 /* ViewModel */,
+				3D47C1BA2A92B50E008522F8 /* Views */,
+				3D47C1B92A92B4FA008522F8 /* Model */,
+				3D47C1A52A929FA6008522F8 /* AppDelegate.swift */,
+				3D47C1A72A929FA6008522F8 /* SceneDelegate.swift */,
+				3D47C1AB2A929FA6008522F8 /* Main.storyboard */,
+				3D47C1AE2A929FA6008522F8 /* Assets.xcassets */,
+				3D47C1B02A929FA6008522F8 /* LaunchScreen.storyboard */,
+				3D47C1B32A929FA6008522F8 /* Info.plist */,
+			);
+			path = "08201990-Ravikanth-Thummala-NYCSchools";
+			sourceTree = "<group>";
+		};
+		3D47C1B92A92B4FA008522F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D47C1BD2A92B58F008522F8 /* School.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D47C1BA2A92B50E008522F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D47C1A92A929FA6008522F8 /* SchoolListViewController.swift */,
+				3D47C1BB2A92B57D008522F8 /* SchoolDetailViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D47C1C22A92B5F6008522F8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3D47C1C02A92B5A1008522F8 /* SchoolViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3D47C1C32A92B600008522F8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3D47C1C42A92B611008522F8 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3D47C1C82A92CE95008522F8 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				3D47C1C62A92C157008522F8 /* AlertController.swift */,
+				3D47C1C92A92CEA4008522F8 /* LoadingIndicatorView.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D47C1A12A929FA5008522F8 /* 08201990-Ravikanth-Thummala-NYCSchools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D47C1B62A929FA6008522F8 /* Build configuration list for PBXNativeTarget "08201990-Ravikanth-Thummala-NYCSchools" */;
+			buildPhases = (
+				3D47C19E2A929FA5008522F8 /* Sources */,
+				3D47C19F2A929FA5008522F8 /* Frameworks */,
+				3D47C1A02A929FA5008522F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "08201990-Ravikanth-Thummala-NYCSchools";
+			productName = "08201990-Ravikanth-Thummala-NYCSchools";
+			productReference = 3D47C1A22A929FA6008522F8 /* 08201990-Ravikanth-Thummala-NYCSchools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D47C19A2A929FA5008522F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3D47C1A12A929FA5008522F8 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3D47C19D2A929FA5008522F8 /* Build configuration list for PBXProject "08201990-Ravikanth-Thummala-NYCSchools" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D47C1992A929FA5008522F8;
+			productRefGroup = 3D47C1A32A929FA6008522F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D47C1A12A929FA5008522F8 /* 08201990-Ravikanth-Thummala-NYCSchools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D47C1A02A929FA5008522F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D47C1B22A929FA6008522F8 /* LaunchScreen.storyboard in Resources */,
+				3D47C1AF2A929FA6008522F8 /* Assets.xcassets in Resources */,
+				3D47C1AD2A929FA6008522F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D47C19E2A929FA5008522F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D47C1C12A92B5A1008522F8 /* SchoolViewModel.swift in Sources */,
+				3D47C1AA2A929FA6008522F8 /* SchoolListViewController.swift in Sources */,
+				3D47C1A62A929FA6008522F8 /* AppDelegate.swift in Sources */,
+				3D47C1BC2A92B57D008522F8 /* SchoolDetailViewController.swift in Sources */,
+				3D47C1C72A92C157008522F8 /* AlertController.swift in Sources */,
+				3D47C1BE2A92B58F008522F8 /* School.swift in Sources */,
+				3D47C1A82A929FA6008522F8 /* SceneDelegate.swift in Sources */,
+				3D47C1C52A92B611008522F8 /* NetworkManager.swift in Sources */,
+				3D47C1CA2A92CEA4008522F8 /* LoadingIndicatorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D47C1AB2A929FA6008522F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D47C1AC2A929FA6008522F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D47C1B02A929FA6008522F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D47C1B12A929FA6008522F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D47C1B42A929FA6008522F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D47C1B52A929FA6008522F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D47C1B72A929FA6008522F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "08201990-Ravikanth-Thummala-NYCSchools/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-8201990-Ravikanth-Thummala-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D47C1B82A929FA6008522F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "08201990-Ravikanth-Thummala-NYCSchools/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-8201990-Ravikanth-Thummala-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D47C19D2A929FA5008522F8 /* Build configuration list for PBXProject "08201990-Ravikanth-Thummala-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D47C1B42A929FA6008522F8 /* Debug */,
+				3D47C1B52A929FA6008522F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D47C1B62A929FA6008522F8 /* Build configuration list for PBXNativeTarget "08201990-Ravikanth-Thummala-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D47C1B72A929FA6008522F8 /* Debug */,
+				3D47C1B82A929FA6008522F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D47C19A2A929FA5008522F8 /* Project object */;
+}
